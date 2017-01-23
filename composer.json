@@ -1,0 +1,18 @@
+{
+    "name": "gavinlight/wpdb_standalone",
+    "description": "Standalone usage of the WPDB Library",
+    "keywords": ["wpdb"],
+    "homepage": "https://github.com/gavinlight/wpdb_standalone",
+    "license": "MIT",
+    "type": "library",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Gavin Ligthart",
+            "email": "gavin.ligthart@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": ["wp-load.php"]
+    }
+}
