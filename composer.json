@@ -5,7 +5,7 @@
     "homepage": "https://github.com/gavinlight/wpdb_standalone",
     "license": "MIT",
     "type": "library",
-    "version": "0.1",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Gavin Ligthart",

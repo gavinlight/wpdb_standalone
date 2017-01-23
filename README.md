@@ -8,12 +8,20 @@ Add the 'WPDB Standalone' library to your composer.json file
 ```sh
 "repositories": [
     {
-        "type": "vcs",
-        "url": "https://github.com/gavinlight/wpdb_standalone"
+        "type": "package",
+        "package": {
+            "name": "gavinlight/wpdb_standalone",
+            "version": "1.0",
+            "source": {
+                "url": "https://github.com/gavinlight/wpdb_standalone.git",
+                "type": "git",
+                "reference": "master"
+            }
+        }
     }
 ],
 "require": {
-    "gavinlight/wpdb_standalone": "*"
+    "gavinlight/wpdb_standalone": "1.0"
 }
 ```
 
